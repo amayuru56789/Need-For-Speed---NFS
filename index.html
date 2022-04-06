@@ -2,9 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Game by avc development</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Game by | avc development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
-<body>
+<body translate="no">
 
+<!--main area of the game-->
+
+    <div id="game">
+        <div id="road">
+            <div id="cloud"></div>
+            <div id="hero"></div>
+        </div>
+
+        <!--information-->
+
+        <div id="hud">
+            <span id="time" class="topUI">0</span>
+            <span id="score" class="topUI">0</span>
+            <span id="lap" class="topUI">0'00"000</span>
+            <span id="tacho" class="topUI">0</span>
+        </div>
+
+        <!--Menu of the Game-->
+
+        <div id="home">
+            <h1>Need For Speed</h1>
+            <p id="text"></p>
+
+            <div id="highscore"></div>
+        </div>
+    </div>
+
+    <!--Controllers for game-->
+
+<div id="controls">
+    <span><span>C</span>insert coin</span>
+    <span><span>M</span>mute</span>
+    <span><span>&lt;</span><span>&gt;</span>move</span>
+    <span><span>&lt;</span>&gt;</span>
+    <span>accelerate</span>
+</div>
 </body>
 </html>
