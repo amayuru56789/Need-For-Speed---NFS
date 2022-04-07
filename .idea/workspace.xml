@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -31,6 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,7 +43,8 @@
       <option name="presentableId" value="Default" />
       <updated>1649217787489</updated>
       <workItem from="1649217790711" duration="28000" />
-      <workItem from="1649217842571" duration="6775000" />
+      <workItem from="1649217842571" duration="7045000" />
+      <workItem from="1649289158835" duration="4298000" />
     </task>
     <servers />
   </component>

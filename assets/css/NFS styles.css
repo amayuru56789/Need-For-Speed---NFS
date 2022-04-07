@@ -1,0 +1,32 @@
+/* UI */
+body{
+    background: #222;
+    font-family: "Press Start 2P", monospace;
+    font-smooth: never;
+    height: 90vh;
+}
+
+/*------------------------CSS styles for Hud Frame-------------------*/
+.topUI{
+    position: absolute;
+    z-index: 1000; /* need this cause clip-path changes stack context */
+    transform: translate(-50%, 25px);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 17px;
+}
+.topUI::before{
+    display: inline-block;
+    height: 17px;
+    padding: 1px 2px;
+    line-height: 19px;
+    font-size: 17px;
+    background: #fff;
+    text-shadow: none;
+    font-weight: 900;
+    letter-spacing: 0;
+    border-radius: 6px;
+    margin-right: 30px;
+    border: 2px solid #7dd8c9;
+}
