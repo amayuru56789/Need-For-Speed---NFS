@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a8beea36-73d2-465d-bbf6-4c26300b34e0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/NFS styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/NFS styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,7 +45,8 @@
       <updated>1649217787489</updated>
       <workItem from="1649217790711" duration="28000" />
       <workItem from="1649217842571" duration="7045000" />
-      <workItem from="1649289158835" duration="4298000" />
+      <workItem from="1649289158835" duration="5095000" />
+      <workItem from="1649348192745" duration="3301000" />
     </task>
     <servers />
   </component>

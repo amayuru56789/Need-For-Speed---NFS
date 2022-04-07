@@ -16,7 +16,7 @@ body{
     color: #fff;
     font-size: 17px;
 }
-.topUI::before{
+#hud > .topUI::before{
     display: inline-block;
     height: 17px;
     padding: 1px 2px;
@@ -29,4 +29,52 @@ body{
     border-radius: 6px;
     margin-right: 30px;
     border: 2px solid #7dd8c9;
+}
+
+/*Added CSS for time area*/
+#time{
+    left: 13%;
+    color: #f4f430;
+}
+#time::before{
+    content: "TIME";
+    color: #f57214;
+}
+
+/*Added CSS for SCORE area*/
+#score{
+    left: 45%;
+}
+#score::before{
+    content: "SCORE";
+    color: #a61a9d;
+}
+
+/*Added CSS for Laps*/
+#lap{
+    left: 88%;
+    width: 20%;
+}
+#lap::before{
+    content: "LAP";
+    color: #0082df;
+}
+
+/*Added CSS for Tacho */
+#tacho{
+    position: absolute;
+    text-align: right;
+    width: 23%;
+    bottom: 5%;
+    z-index: 2000;
+    color: #e62e13;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    letter-spacing: 2px;
+    font-size: 23px;
+}
+#tacho::after{
+    content: "km/h";
+    color: #fab453;
+    font-size: 18px;
+    margin-left: 5px;
 }
