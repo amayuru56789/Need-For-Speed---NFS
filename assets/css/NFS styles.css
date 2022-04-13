@@ -78,3 +78,39 @@ body{
     font-size: 18px;
     margin-left: 5px;
 }
+
+        /*
+    road
+*/
+#game{
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #222;
+    user-select: none;
+    transition: opacity 10s;
+}
+
+#road{
+    transition: opacity 2s;
+    transition-timing-function: steps(8, end);
+}
+#road *{
+    position: absolute;
+    image-rendering: pixelated;
+}
+
+/*HERO*/
+#hero{
+    background-repeat: no-repeat;
+    background-position: -110px 0;
+    z-index: 2000;
+    transform: scale(1.4);
+}
+
+/*CLOUD*/
+#cloud{
+    background-size: auto 100%;
+    width: 100%;
+    height: 56%;
+}
