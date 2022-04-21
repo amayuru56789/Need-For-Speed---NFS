@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8beea36-73d2-465d-bbf6-4c26300b34e0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/NFS styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/NFS styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="a8beea36-73d2-465d-bbf6-4c26300b34e0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +45,8 @@
       <workItem from="1649217842571" duration="7045000" />
       <workItem from="1649289158835" duration="5095000" />
       <workItem from="1649348192745" duration="3966000" />
-      <workItem from="1649812211758" duration="3273000" />
+      <workItem from="1649812211758" duration="7995000" />
+      <workItem from="1650502038513" duration="2692000" />
     </task>
     <servers />
   </component>

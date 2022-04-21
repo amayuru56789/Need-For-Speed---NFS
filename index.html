@@ -6,46 +6,80 @@
     <title>Game by | avc development</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/NFS%20styles.css">
+    <!--<link rel="stylesheet" href="assets/css/NFS%20styles.css">-->
 
 </head>
 <body translate="no">
 
+<!--Controllers for game-->
+
+<div id="help">
+    <p>Controls: Right, Left, Up & Down arrow keys.</p>
+
+
+</div>
+
+<!--information-->
+
+<div id="hud">
+    Score: <span id="score">0</span>
+    High Score: <span id="high_score">0</span>
+</div>
+
 <!--main area of the game-->
 
-    <div id="game">
-        <div id="road">
-            <div id="cloud"></div>
-            <div id="hero"></div>
-        </div>
-
-        <!--information-->
-
-        <div id="hud">
-            <span id="time" class="topUI">0</span>
-            <span id="score" class="topUI">0</span>
-            <span id="lap" class="topUI">0'00"000</span>
-            <span id="tacho" class="topUI">0</span>
-        </div>
-
-        <!--Menu of the Game-->
-
-        <div id="home">
-            <h1>Need For Speed</h1>
-            <p id="text"></p>
-
-            <div id="highscore"></div>
-        </div>
+<div id="container">
+    <div id="line_1" class="line"></div>
+    <div id="line_2" class="line"></div>
+    <div id="line_3" class="line"></div>
+    <div id="car" class="car">
+        <div class="a_glass"></div>
+        <div class="b_glass"></div>
+        <div class="a_light_1"></div>
+        <div class="a_light_r"></div>
+        <div class="a_tyre_1"></div>
+        <div class="a_tyre_r"></div>
+        <div class="b_tyre_1"></div>
+        <div class="b_tyre_r"></div>
     </div>
-
-    <!--Controllers for game-->
-
-<div id="controls">
-    <span><span>C</span>insert coin</span>
-    <span><span>M</span>mute</span>
-    <span><span>&lt;</span><span>&gt;</span>move</span>
-    <span><span>&lt;</span>&gt;</span>
-    <span>accelerate</span>
+    <div id="car_1" class="car">
+        <div class="a_glass"></div>
+        <div class="b_glass"></div>
+        <div class="a_light_1"></div>
+        <div class="a_light_r"></div>
+        <div class="a_tyre_1"></div>
+        <div class="a_tyre_r"></div>
+        <div class="b_tyre_1"></div>
+        <div class="b_tyre_r"></div>
+    </div>
+    <div id="car_2" class="car">
+        <div class="a_glass"></div>
+        <div class="b_glass"></div>
+        <div class="a_light_1"></div>
+        <div class="a_light_r"></div>
+        <div class="a_tyre_1"></div>
+        <div class="a_tyre_r"></div>
+        <div class="b_tyre_1"></div>
+        <div class="b_tyre_r"></div>
+    </div>
+    <div id="car_3" class="car">
+        <div class="a_glass"></div>
+        <div class="b_glass"></div>
+        <div class="a_light_1"></div>
+        <div class="a_light_r"></div>
+        <div class="a_tyre_1"></div>
+        <div class="a_tyre_r"></div>
+        <div class="b_tyre_1"></div>
+        <div class="b_tyre_r"></div>
+    </div>
+    <div id="restart_div">
+        <button id="restart">
+            Restart <br>
+            <small class="small_txt">(Press Enter)</small>
+        </button>
+    </div>
 </div>
+
+
 </body>
 </html>
