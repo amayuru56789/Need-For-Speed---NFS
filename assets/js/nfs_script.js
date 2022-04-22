@@ -154,7 +154,17 @@ $(function(){
         location.reload();
     });
 
-
+    function stop_the_game(){
+        game_over = true;
+        cancelAnimationFrame(anim_id);
+        cancelAnimationFrame(move_right);
+        cancelAnimationFrame(move_left);
+        cancelAnimationFrame(move_up);
+        cancelAnimationFrame(move_down);
+        restart_div.slideDown();
+        restart_btn.focus();
+        setHighScore();
+    }
 
 
 
