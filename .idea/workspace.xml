@@ -4,7 +4,6 @@
     <list default="true" id="a8beea36-73d2-465d-bbf6-4c26300b34e0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/NFS styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/NFS styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/nfs_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/nfs_script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,8 @@
       <workItem from="1649348192745" duration="3966000" />
       <workItem from="1649812211758" duration="7995000" />
       <workItem from="1650502038513" duration="25360000" />
-      <workItem from="1650592053899" duration="11660000" />
+      <workItem from="1650592053899" duration="12245000" />
+      <workItem from="1651998900301" duration="3128000" />
     </task>
     <servers />
   </component>
