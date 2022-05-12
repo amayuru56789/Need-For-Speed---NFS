@@ -12,6 +12,24 @@ body{
     display: none;
 }
 
+#loader_container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: #383030;
+    z-index: 1;
+}
+#loader_container>img{
+    width: 700px;
+    /*    height: 150px;*/
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
 /*------------------------CSS styles for Container-------------------*/
 #container{
     position: relative;
